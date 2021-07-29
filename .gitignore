@@ -1,0 +1,6 @@
+*.svg
+*out
+.terr*
+*state*
+.*swp
+*.cp
