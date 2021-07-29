@@ -32,7 +32,7 @@ variable "instance_count" {
 
 variable "zones" {
   description = "for multi zone deployment"
-  default = ["eu-west-2a","eu-west-2b","eu-west-2c"]
+  default     = ["eu-west-2a", "eu-west-2b", "eu-west-2c"]
 }
 
 variable "zone" {
