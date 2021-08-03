@@ -41,6 +41,6 @@ variable "zone" {
 }
 
 variable "username" {
-  type = list(string)
-  default = ["stuart.humphries","hemant.bhavsar","simon.bowen"]
+  type    = list(string)
+  default = ["stuart.humphries", "hemant.bhavsar", "simon.bowen"]
 }
