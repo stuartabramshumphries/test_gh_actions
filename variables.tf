@@ -39,3 +39,8 @@ variable "zone" {
   description = "for single zone deployment"
   default     = ""
 }
+
+variable "username" {
+  type = list(string)
+  default = ["stuart.humphries","hemant.bhavsar","simon.bowen"]
+}
