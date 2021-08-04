@@ -1,4 +1,4 @@
-resource "aws_iam_group" "Administrators" {
+  resource "aws_iam_group" "Administrators" {
   name = "Administrators"
   path = "/"
 }
